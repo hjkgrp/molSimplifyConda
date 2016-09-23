@@ -1,0 +1,18 @@
+package:
+        name: molsimplify
+        version: "1.0"
+source:
+        git_url: https://github.com/hjkgrp/molSimplify.git
+requirements:
+ build:
+ run:
+         - python
+         - numpy
+         - scipy 
+         - openbabel
+test:
+ imports:
+         - pybel
+about:
+        home: https://github.com/hjkgrp/molSimplify
+        license: BSD

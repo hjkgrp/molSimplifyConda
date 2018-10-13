@@ -1,9 +1,9 @@
 package:
         name: molsimplify
-        version: "1.2.8"
+        version: "1.4.3.0"
 source:
         git_url: https://github.com/hjkgrp/molSimplify.git
-        git_tag: JP
+        git_tag: master
 build:
         number: 1
         preserve_egg_dir: True
@@ -17,6 +17,7 @@ requirements:
         - python
         - numpy
         - scipy 
+        - scikit-learn
 about:
         home: https://github.com/hjkgrp/molSimplify
         license: BSD

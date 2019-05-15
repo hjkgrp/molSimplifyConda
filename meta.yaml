@@ -1,6 +1,6 @@
 package:
         name: molsimplify
-        version: "1.4.3.0"
+        version: "1.4.5.0"
 source:
         git_url: https://github.com/hjkgrp/molSimplify.git
         git_tag: master
@@ -14,6 +14,7 @@ requirements:
  run:
         - openbabel
         - setuptools
+        - pandas
         - python
         - numpy
         - scipy 

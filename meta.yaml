@@ -1,6 +1,6 @@
 package:
         name: molsimplify
-        version: "1.4.5.0"
+        version: "1.6.0"
 source:
         git_url: https://github.com/hjkgrp/molSimplify.git
         git_tag: master
@@ -9,15 +9,15 @@ build:
         preserve_egg_dir: True
 requirements:
  build:
-        - python
+        - python=3.6.8
         - setuptools
  run:
+        - scipy
         - openbabel
         - setuptools
         - pandas
-        - python
+        - python=3.6.8
         - numpy
-        - scipy 
         - scikit-learn
 about:
         home: https://github.com/hjkgrp/molSimplify

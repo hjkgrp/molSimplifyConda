@@ -1,9 +1,10 @@
 package:
         name: molsimplify
-        version: "1.6.0"
+        version: "1.6.0" # change this when a new version of molSimplify is released on GitHub
 source:
-        git_url: https://github.com/hjkgrp/molSimplify.git
-        git_tag: master
+        # git_url: https://github.com/hjkgrp/molSimplify.git
+        # git_tag: master
+        path : ../molSimplify
 build:
         number: 1
         preserve_egg_dir: True
@@ -12,11 +13,11 @@ requirements:
         - python=3.6.8
         - setuptools
  run:
+        - python=3.6.8
+        - setuptools
         - scipy
         - openbabel
-        - setuptools
         - pandas
-        - python=3.6.8
         - numpy
         - scikit-learn
 about:

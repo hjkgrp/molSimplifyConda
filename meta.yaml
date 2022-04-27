@@ -10,10 +10,10 @@ build:
         preserve_egg_dir: True
 requirements:
  build:
-        - python=3.6.8
+        - python=3.7
         - setuptools
  run:
-        - python=3.6.8
+        - python=3.7
         - setuptools
         - scipy
         - openbabel

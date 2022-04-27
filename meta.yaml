@@ -1,6 +1,6 @@
 package:
         name: molsimplify
-        version: "1.6.0" # change this when a new version of molSimplify is released on GitHub
+        version: "1.7.0" # change this when a new version of molSimplify is released on GitHub
 source:
         # git_url: https://github.com/hjkgrp/molSimplify.git
         # git_tag: master

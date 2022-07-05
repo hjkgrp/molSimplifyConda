@@ -1,6 +1,6 @@
 package:
         name: molsimplify
-        version: "1.7.0" # change this when a new version of molSimplify is released on GitHub
+        version: "1.7.1" # change this when a new version of molSimplify is released on GitHub
 source:
         # git_url: https://github.com/hjkgrp/molSimplify.git
         # git_tag: master
@@ -15,11 +15,21 @@ requirements:
  run:
         - python=3.7
         - setuptools
-        - scipy
         - openbabel
-        - pandas
-        - numpy
+        - xtb
+        - psi4
+        - tensorflow
+        - keras
+        - pytorch
+        - pyqt
+        - pip
+        - qt
         - scikit-learn
+        - pandas
+        - scipy
+        - pymongo
+        - iodata
+        - libffi
 about:
         home: https://github.com/hjkgrp/molSimplify
         license: BSD

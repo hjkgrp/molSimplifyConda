@@ -1,19 +1,19 @@
 package:
         name: molsimplify
-        version: "1.7.2" # change this when a new version of molSimplify is released on GitHub
+        version: "1.7.3" # change this when a new version of molSimplify is released on GitHub
 source:
         # git_url: https://github.com/hjkgrp/molSimplify.git
         # git_tag: master
-        path : ../molSimplify
+        path : ../molSimplify # Assumes the cloned, up-to-date molSimplify repo is in the parent folder of meta.yaml
 build:
         number: 1
         preserve_egg_dir: True
 requirements:
  build:
-        - python=3.7
+        - python=3.11
         - setuptools
  run:
-        - python=3.7
+        - python=3.11
         - setuptools
         - scipy
         - openbabel

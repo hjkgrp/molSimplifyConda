@@ -1,6 +1,6 @@
 package:
         name: molsimplify
-        version: "1.7.3" # change this when a new version of molSimplify is released on GitHub
+        version: "1.7.4" # change this when a new version of molSimplify is released on GitHub
 source:
         # git_url: https://github.com/hjkgrp/molSimplify.git
         # git_tag: master
@@ -10,20 +10,20 @@ build:
         preserve_egg_dir: True
 requirements:
  build:
-        - python=3.11
+        - python=3.10
         - setuptools
  run:
-        - python=3.11
-        - setuptools
-        - scipy
+        - python=3.10
         - openbabel
-        - pandas
-        - numpy
-        - scikit-learn
-        - pytest-runner
         - tensorflow-base
+        - scikit-learn
         - pyyaml
+        - pandas
+        - scipy
         - libffi
+        - setuptools
+        - numpy
+        - pytest-runner
         - pip
 about:
         home: https://github.com/hjkgrp/molSimplify

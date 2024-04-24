@@ -15,21 +15,16 @@ requirements:
  run:
         - python=3.10
         - openbabel
-        - tensorflow-base >2.0
+        - tensorflow-base
         - scikit-learn
         - pyyaml
         - pandas
         - scipy
         - libffi
-        - networkx >=2.7
-        - importlib_resources
+        - setuptools
+        - numpy
+        - pytest-runner
         - pip
-        - matplotlib
-        - pymongo
-        - beautifulsoup4
-        - theochem::iodata
-        - xtb
-        - scikit-image
 about:
         home: https://github.com/hjkgrp/molSimplify
         license: BSD

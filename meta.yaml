@@ -15,13 +15,13 @@ requirements:
  run:
         - python=3.10
         - openbabel
-        - tensorflow-base > 2.0
+        - tensorflow-base >2.0
         - scikit-learn
         - pyyaml
         - pandas
         - scipy
         - libffi
-        - networkx >= 2.7
+        - networkx >=2.7
         - importlib_resources
         - pip
         - matplotlib

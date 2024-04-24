@@ -27,4 +27,4 @@ requirements:
         - pip
 about:
         home: https://github.com/hjkgrp/molSimplify
-        license: BSD
+        license: GPL-3.0

@@ -1,6 +1,6 @@
 package:
         name: molsimplify
-        version: "1.7.6" # change this when a new version of molSimplify is released on GitHub
+        version: "1.7.7" # change this when a new version of molSimplify is released on GitHub
 source:
         # git_url: https://github.com/hjkgrp/molSimplify.git
         # git_tag: master
@@ -15,16 +15,21 @@ requirements:
  run:
         - python=3.10
         - openbabel
-        - tensorflow-base
+        - tensorflow-base >2.0, <2.14
         - scikit-learn
         - pyyaml
         - pandas
         - scipy
         - libffi
-        - setuptools
-        - numpy
-        - pytest-runner
+        - networkx >=2.7
+        - importlib_resources
         - pip
+        - pytest
+        - matplotlib
+        - pymongo
+        - beautifulsoup4
+        - xtb <6.7
+        - libgc <15
 about:
         home: https://github.com/hjkgrp/molSimplify
         license: GPL-3.0

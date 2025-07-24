@@ -29,7 +29,7 @@ requirements:
         - pymongo
         - beautifulsoup4
         - xtb <6.7
-        - libgc <15
+        - libgcc <15
 about:
         home: https://github.com/hjkgrp/molSimplify
         license: GPL-3.0
